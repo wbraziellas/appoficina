@@ -1,0 +1,5 @@
+C:\Users\NOTE\Programas\lm.oficina\Domain\bin\Debug\Domain.dll
+C:\Users\NOTE\Programas\lm.oficina\Domain\bin\Debug\Domain.pdb
+C:\Users\NOTE\Programas\lm.oficina\Domain\obj\Debug\lm.Oficina.Domain.csprojResolveAssemblyReference.cache
+C:\Users\NOTE\Programas\lm.oficina\Domain\obj\Debug\Domain.dll
+C:\Users\NOTE\Programas\lm.oficina\Domain\obj\Debug\Domain.pdb

@@ -1,0 +1,5 @@
+C:\Users\NOTE\Programas\lm.oficina\Controller\bin\Debug\Controller.dll
+C:\Users\NOTE\Programas\lm.oficina\Controller\bin\Debug\Controller.pdb
+C:\Users\NOTE\Programas\lm.oficina\Controller\obj\Debug\lm.Oficina.Controller.csprojResolveAssemblyReference.cache
+C:\Users\NOTE\Programas\lm.oficina\Controller\obj\Debug\Controller.dll
+C:\Users\NOTE\Programas\lm.oficina\Controller\obj\Debug\Controller.pdb

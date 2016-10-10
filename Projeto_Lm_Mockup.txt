@@ -1,0 +1,5 @@
+Domain - conexãoBanco - DTO
+
+Repository - CRUD (create, read, update, delete)
+
+controller - Métodos para manipular os dados.

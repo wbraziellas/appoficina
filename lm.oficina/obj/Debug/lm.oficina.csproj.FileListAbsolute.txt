@@ -1,0 +1,11 @@
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\bin\Debug\lm.oficina.exe.config
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\bin\Debug\lm.oficina.exe
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\bin\Debug\lm.oficina.pdb
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\obj\Debug\lm.oficina.csprojResolveAssemblyReference.cache
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\obj\Debug\lm.oficina.Properties.Resources.resources
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\obj\Debug\lm.oficina.csproj.GenerateResource.Cache
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\obj\Debug\lm.oficina.exe
+C:\Users\NOTE\Programas\lm.oficina\lm.oficina\obj\Debug\lm.oficina.pdb
+C:\Users\NOTE\Documents\Visual Studio 2015\TeamSolutions\lm.oficina\lm.oficina\bin\Debug\lm.oficina.exe.config
+C:\Users\NOTE\Documents\Visual Studio 2015\TeamSolutions\lm.oficina\lm.oficina\obj\Debug\lm.oficina.exe
+C:\Users\NOTE\Documents\Visual Studio 2015\TeamSolutions\lm.oficina\lm.oficina\obj\Debug\lm.oficina.pdb

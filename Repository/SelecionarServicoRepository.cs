@@ -11,7 +11,9 @@ namespace lm.Oficina.Repository
     {
         public static List<DadosServicoDTO> SelecionarOrdemDeServico()
         {
-            
+            const string QuerySelecionaServico = @"Select ";
+
+            return null;
         }
     }
 }

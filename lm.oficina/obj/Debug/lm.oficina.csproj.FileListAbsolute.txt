@@ -9,3 +9,6 @@ C:\Users\NOTE\Programas\lm.oficina\lm.oficina\obj\Debug\lm.oficina.pdb
 C:\Users\NOTE\Documents\Visual Studio 2015\TeamSolutions\lm.oficina\lm.oficina\bin\Debug\lm.oficina.exe.config
 C:\Users\NOTE\Documents\Visual Studio 2015\TeamSolutions\lm.oficina\lm.oficina\obj\Debug\lm.oficina.exe
 C:\Users\NOTE\Documents\Visual Studio 2015\TeamSolutions\lm.oficina\lm.oficina\obj\Debug\lm.oficina.pdb
+C:\Projetos\lm.oficina\lm.oficina\bin\Debug\lm.oficina.exe.config
+C:\Projetos\lm.oficina\lm.oficina\obj\Debug\lm.oficina.exe
+C:\Projetos\lm.oficina\lm.oficina\obj\Debug\lm.oficina.pdb

@@ -16,5 +16,7 @@ namespace lm.Oficina.Domain
         protected string _strSql = string.Empty;
 
         public abstract bool Conectar();
+
+        public abstract bool Desconectar();    
     }
 }

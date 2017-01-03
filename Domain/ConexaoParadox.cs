@@ -31,5 +31,10 @@ namespace lm.Oficina.Domain
                 throw eError;
             }
         }
+
+        public override bool Desconectar()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

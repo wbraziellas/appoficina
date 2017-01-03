@@ -20,6 +20,11 @@ namespace lm.Oficina.Domain
         }
         #endregion
 
-        cone
+        public List<DadosServicoDTO> SelecionarServico()
+        {
+            conexaoParadox.Conectar();
+
+            return new List<DadosServicoDTO>();
+        }
     }
 }

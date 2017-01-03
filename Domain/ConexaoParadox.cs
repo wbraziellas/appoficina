@@ -10,7 +10,7 @@ namespace lm.Oficina.Domain
 {
     public class ConexaoParadox : ConexaoBase
     {
-        protected override bool Conectar()
+        public override bool Conectar()
         {
             _connection = new OdbcConnection(_strConnection);
             try

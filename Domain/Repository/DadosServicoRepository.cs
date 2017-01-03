@@ -16,11 +16,10 @@ namespace lm.Oficina.Domain
         private ConexaoParadox _conexaoParadox;
         private ConexaoParadox conexaoParadox
         {
-            get { return _conexaoBase ?? (_conexaoBase = new ConexaoParadox()); }
+            get { return _conexaoParadox ?? (_conexaoParadox = new ConexaoParadox()); }
         }
         #endregion
 
         cone
-
     }
 }

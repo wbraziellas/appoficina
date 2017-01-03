@@ -9,12 +9,12 @@ using System.Data.Odbc;
 
 namespace lm.Oficina.Domain
 {
-    abstract class ConexaoBase
+    public abstract class ConexaoBase
     {
         protected string _strConnection = @"Microsoft dBASE Driver (*.dbf)};DriverID=277;Dbq=C:\Projetos\lm.oficina\DADOS";
         protected OdbcConnection _connection;
         protected string _strSql = string.Empty;
 
-        protected abstract bool Conectar();
+        public abstract bool Conectar();
     }
 }

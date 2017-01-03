@@ -1,0 +1,5 @@
+C:\Users\NOTE\Programas\lm.oficina\Repository\bin\Debug\Repository.dll
+C:\Users\NOTE\Programas\lm.oficina\Repository\bin\Debug\Repository.pdb
+C:\Users\NOTE\Programas\lm.oficina\Repository\obj\Debug\lm.Oficina.Repository.csprojResolveAssemblyReference.cache
+C:\Users\NOTE\Programas\lm.oficina\Repository\obj\Debug\Repository.dll
+C:\Users\NOTE\Programas\lm.oficina\Repository\obj\Debug\Repository.pdb

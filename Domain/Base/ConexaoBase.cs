@@ -13,7 +13,6 @@ namespace lm.Oficina.Domain
     {
         protected string _strConnection = @"Microsoft dBASE Driver (*.dbf)};DriverID=277;Dbq=C:\Projetos\lm.oficina\DADOS";
         protected OdbcConnection _connection;
-        protected string _strSql = string.Empty;
 
         public abstract bool Conectar();
 

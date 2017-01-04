@@ -29,7 +29,8 @@ namespace lm.Oficina.Domain
             DataTable _data = new DataTable();
 
             _adpSql.Fill(_data);
-                      
+
+            conexaoParadox.Desconectar();
 
             return ConverterEmDadosServicoDto(_data);
         }

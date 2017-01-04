@@ -34,7 +34,13 @@ namespace lm.Oficina.Domain
 
         public override bool Desconectar()
         {
-            throw new NotImplementedException();
+            if (_connection.State != ConnectionState.Closed)
+            {
+                _connection.Close();
+                return true;
+            }
+            else
+                return false;            
         }
     }
 }

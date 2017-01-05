@@ -42,7 +42,7 @@
   <ItemGroup>
     <Compile Include="DadosServicoDTO.cs" />
     <Compile Include="ItensServicoFinalizadoDTO.cs" />
-    <Compile Include="OsFinaliadaDTO.cs" />
+    <Compile Include="ServicoFinalizadoDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -20,7 +20,16 @@ namespace lm.Oficina.Domain
 
         public List<DadosServicoDTO> SelecionarServico()
         {
-            _strSql = @"";
+            _strSql = "SELECT" + 
+                            "NUMERO," +
+                            "CODCLI" +
+                            "CLIENTE" +
+                            "PLACA" + 
+                            "DATAENT" +
+                            "OBS1" +
+                    "FROM " +
+                            "ORDEM WHERE" +
+                    "STATUS = \"A\"";
                 
             conexaoParadox.Conectar();
 
@@ -46,7 +55,10 @@ namespace lm.Oficina.Domain
                 var _dadosServico = new DadosServicoDTO();
 
                 _dadosServico.CodigoOs = int.Parse(_valorLinha[0].ToString());
-                _dadosServico.DataOs = DateTime.Parse(_valorLinha[1].ToString());
+                _dadosServico.CodigoCliente = _valorLinha[1].ToString();
+                _dadosServico.PlacaVeiculo = _valorLinha[2].ToString();
+                _dadosServico.DataOs = DateTime.Parse(_valorLinha[4].ToString());
+
 
                 _listaServico.Add(_dadosServico);
                 

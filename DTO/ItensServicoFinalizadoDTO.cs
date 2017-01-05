@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace lm.Oficina.DTO
 {
-    class ItensServicoFinalizadoDTO
+    public class ItensServicoFinalizadoDTO
     {
         public int CodigoServicoFinalizado { get; set; }
         public int CodigoOsFinalizada { get; set; }

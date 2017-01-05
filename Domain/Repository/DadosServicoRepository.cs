@@ -56,9 +56,10 @@ namespace lm.Oficina.Domain
 
                 _dadosServico.CodigoOs = int.Parse(_valorLinha[0].ToString());
                 _dadosServico.CodigoCliente = _valorLinha[1].ToString();
-                _dadosServico.PlacaVeiculo = _valorLinha[2].ToString();
+                _dadosServico.Nomecliente = _valorLinha[2].ToString();
+                _dadosServico.PlacaVeiculo = _valorLinha[3].ToString();
                 _dadosServico.DataOs = DateTime.Parse(_valorLinha[4].ToString());
-
+                _dadosServico.Servico = _valorLinha.ToString();
 
                 _listaServico.Add(_dadosServico);
                 

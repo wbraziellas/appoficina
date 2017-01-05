@@ -17,3 +17,5 @@ C:\Projetos\lm.oficina\lm.oficina\obj\Debug\lm.oficina.csproj.GenerateResource.C
 C:\Projetos\lm.oficina\lm.oficina\obj\Debug\lm.oficina.exe
 C:\Projetos\lm.oficina\lm.oficina\obj\Debug\lm.oficina.pdb
 C:\Projetos\lm.oficina\lm.oficina\obj\Debug\lm.oficina.csprojResolveAssemblyReference.cache
+C:\Projetos\lm.oficina\lm.oficina\bin\Debug\Npgsql.dll
+C:\Projetos\lm.oficina\lm.oficina\bin\Debug\Npgsql.xml

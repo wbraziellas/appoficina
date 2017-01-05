@@ -3,3 +3,8 @@ C:\Projetos\lm.oficina\Repository\bin\Debug\lm.Oficina.DTO.dll
 C:\Projetos\lm.oficina\Repository\bin\Debug\lm.Oficina.DTO.pdb
 C:\Projetos\lm.oficina\Repository\obj\Debug\lm.Oficina.DTO.dll
 C:\Projetos\lm.oficina\Repository\obj\Debug\lm.Oficina.DTO.pdb
+C:\Projetos\lm.oficina\DTO\bin\Debug\lm.Oficina.DTO.dll
+C:\Projetos\lm.oficina\DTO\bin\Debug\lm.Oficina.DTO.pdb
+C:\Projetos\lm.oficina\DTO\obj\Debug\lm.Oficina.DTO.csprojResolveAssemblyReference.cache
+C:\Projetos\lm.oficina\DTO\obj\Debug\lm.Oficina.DTO.dll
+C:\Projetos\lm.oficina\DTO\obj\Debug\lm.Oficina.DTO.pdb

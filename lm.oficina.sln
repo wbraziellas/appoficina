@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lm.Oficina.Controller", "Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lm.Oficina.DTO", "DTO\lm.Oficina.DTO.csproj", "{8775848A-F3B8-4DBD-9D24-F1B892D7E9A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lm.Oficina.Tests", "lm.Oficina.Tests\lm.Oficina.Tests.csproj", "{51DB0270-B40A-413B-BAE4-FE4CEBAC916D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8775848A-F3B8-4DBD-9D24-F1B892D7E9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8775848A-F3B8-4DBD-9D24-F1B892D7E9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8775848A-F3B8-4DBD-9D24-F1B892D7E9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51DB0270-B40A-413B-BAE4-FE4CEBAC916D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DB0270-B40A-413B-BAE4-FE4CEBAC916D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DB0270-B40A-413B-BAE4-FE4CEBAC916D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DB0270-B40A-413B-BAE4-FE4CEBAC916D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

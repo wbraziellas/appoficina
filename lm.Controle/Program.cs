@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace lm.oficina
+namespace lm.Controle
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace lm.oficina
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmPrincipal());
+            Application.Run(new Form1());
         }
     }
 }

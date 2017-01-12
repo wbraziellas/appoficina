@@ -27,13 +27,30 @@ namespace lm.Oficina.Domain.Repository
         {
             conexao.Conectar();
 
-            _strSql = "INSERT" + 
-                            "INTO" + 
-                      "SERVICOFINALIZADO(CODIGOSERVICOFINALIZADO, CODIGOOSFINALIZADA, DESCRICAODOSERVICO, SERVICOFINALIZADO)" + 
-                      "VALUES(@CODIGOSERVICOFINALIZADO, @CODIGOOSFINALIZADA, @DESCRICAODOSERVICO, @SERVICOFINALIZADO)";
+            try
+            {
 
-            OdbcCommand _sqlCmd = new OdbcCommand(_strSql);
-            
+                _strSql = "INSERT" +
+                                "INTO" +
+                          "SERVICOFINALIZADO(CODIGOSERVICOFINALIZADO, CODIGOOSFINALIZADA, DESCRICAODOSERVICO, SERVICOFINALIZADO)" +
+                          "VALUES(@CODIGOSERVICOFINALIZADO, @CODIGOOSFINALIZADA, @DESCRICAODOSERVICO, @SERVICOFINALIZADO)";
+
+                OdbcCommand _sqlCmd = new OdbcCommand(_strSql);
+                _sqlCmd.Parameters.Add(new OdbcParameter("@CODIGOSERVICOFINALIZADO", ItensServicoFinalizado.CodigoServicoFinalizado));
+                _sqlCmd.Parameters.Add(new OdbcParameter("@CODIGOOSFINALIZADA", ItensServicoFinalizado.CodigoOsFinalizada));
+                _sqlCmd.Parameters.Add(new OdbcParameter("@DESCRICAOSERVICO", ItensServicoFinalizado.DescricaoDoServico));
+                _sqlCmd.Parameters.Add(new OdbcParameter("@SERVICOFINALIZADO", ItensServicoFinalizado.ServicoRealizado));
+
+                _sqlCmd.ExecuteNonQuery();
+            }
+            catch(Exception eError)
+            {
+                eError.GetBaseException();
+            }
+            finally
+            {
+                conexao.Desconectar();
+            }
         }
 
     }

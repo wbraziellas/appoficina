@@ -5,6 +5,10 @@ C:\Users\NOTE\Programas\lm.oficina\Controller\obj\Debug\Controller.dll
 C:\Users\NOTE\Programas\lm.oficina\Controller\obj\Debug\Controller.pdb
 C:\Projetos\lm.oficina\Controller\bin\Debug\Controller.dll
 C:\Projetos\lm.oficina\Controller\bin\Debug\Controller.pdb
+C:\Projetos\lm.oficina\Controller\bin\Debug\lm.Oficina.Domain.dll
+C:\Projetos\lm.oficina\Controller\bin\Debug\lm.Oficina.DTO.dll
+C:\Projetos\lm.oficina\Controller\bin\Debug\lm.Oficina.Domain.pdb
+C:\Projetos\lm.oficina\Controller\bin\Debug\lm.Oficina.DTO.pdb
 C:\Projetos\lm.oficina\Controller\obj\Debug\lm.Oficina.Controller.csprojResolveAssemblyReference.cache
 C:\Projetos\lm.oficina\Controller\obj\Debug\Controller.dll
 C:\Projetos\lm.oficina\Controller\obj\Debug\Controller.pdb

@@ -3,10 +3,10 @@ C:\Users\NOTE\Programas\lm.oficina\Domain\bin\Debug\Domain.pdb
 C:\Users\NOTE\Programas\lm.oficina\Domain\obj\Debug\lm.Oficina.Domain.csprojResolveAssemblyReference.cache
 C:\Users\NOTE\Programas\lm.oficina\Domain\obj\Debug\Domain.dll
 C:\Users\NOTE\Programas\lm.oficina\Domain\obj\Debug\Domain.pdb
-C:\Projetos\lm.oficina\Domain\obj\Debug\lm.Oficina.Domain.csprojResolveAssemblyReference.cache
 C:\Projetos\lm.oficina\Domain\bin\Debug\lm.Oficina.Domain.dll
 C:\Projetos\lm.oficina\Domain\bin\Debug\lm.Oficina.Domain.pdb
 C:\Projetos\lm.oficina\Domain\bin\Debug\lm.Oficina.DTO.dll
 C:\Projetos\lm.oficina\Domain\bin\Debug\lm.Oficina.DTO.pdb
+C:\Projetos\lm.oficina\Domain\obj\Debug\lm.Oficina.Domain.csprojResolveAssemblyReference.cache
 C:\Projetos\lm.oficina\Domain\obj\Debug\lm.Oficina.Domain.dll
 C:\Projetos\lm.oficina\Domain\obj\Debug\lm.Oficina.Domain.pdb

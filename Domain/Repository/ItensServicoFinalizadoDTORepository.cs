@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using lm.Oficina.Domain;
 using lm.Oficina.DTO;
 using System.Data.Odbc;
+using System.Data;
 
 namespace lm.Oficina.Domain.Repository
 {
@@ -52,6 +53,54 @@ namespace lm.Oficina.Domain.Repository
                 conexao.Desconectar();
             }
         }
+
+        public List<ItensServicoFinalizadoDTO> SelecionarItensServicoFinalizado(int IdServico)
+        {
+            conexao.Conectar();
+
+            _strSql = "SELECT" +
+                            "CODIGOSERVICOREALIZADO" +
+                            "CODIGOOSFINALIZADA" +
+                            "DESCRICAODOSERVICO" +
+                            "SERVICOREALIZADO" +
+                       "FROM ITENSSERVICOFINALIZADO" + 
+                       "WHERE" +
+                             "CODIGOOSFINALIZADA = @CODIGOOSFINALIZADA";
+
+            OdbcCommand _strCmd = new OdbcCommand(_strSql);
+            _strCmd.Parameters.Add(new OdbcParameter("@CODIGOOSFINALIZADA", IdServico));
+
+            var adapter = new OdbcDataAdapter() { SelectCommand = _strCmd };
+            var data = new DataTable();
+
+            adapter.Fill(data);
+
+            return ConverterDataEmItensServicoFinalizadoDTO(data);            
+        }
+
+        #region Métodos Privados
+
+        private List<ItensServicoFinalizadoDTO> ConverterDataEmItensServicoFinalizadoDTO(DataTable data)
+        {
+            var listaItens = new List<ItensServicoFinalizadoDTO>();
+
+            foreach(DataRow row in data.Rows)
+            {
+                var Item = new ItensServicoFinalizadoDTO();
+                var linha = row.ItemArray;
+
+                Item.CodigoServicoFinalizado = int.Parse(linha[0].ToString());
+                Item.CodigoOsFinalizada = int.Parse(linha[1].ToString());
+                Item.DescricaoDoServico = linha[2].ToString();
+                Item.ServicoRealizado = bool.Parse(linha[3].ToString());
+
+                listaItens.Add(Item);
+            }
+
+            return listaItens;
+        }
+
+        #endregion
 
     }
 }

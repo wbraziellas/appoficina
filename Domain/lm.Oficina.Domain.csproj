@@ -44,7 +44,8 @@
     <Compile Include="ConexaoParadox.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\DadosServicoRepository.cs" />
-    <Compile Include="Repository\ItensServicoFinalizadoDTORepository.cs" />
+    <Compile Include="Repository\ItensServicoFinalizadoRepository.cs" />
+    <Compile Include="Repository\ServicoFinalizadoRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DTO\lm.Oficina.DTO.csproj">

@@ -11,7 +11,7 @@ namespace lm.Oficina.Domain
 {
     public abstract class ConexaoBase
     {
-        protected string _strConnection = @"Microsoft dBASE Driver (*.dbf)};DriverID=277;Dbq=C:\Projetos\lm.oficina\DADOS";
+        protected string _strConnection = @"Driver={Microsoft dBase Driver (*.dbf)};SourceType=DBF;SourceDB=C:\Projetos\lm.oficina\DADOS;Exclusive=No;Collate=Machine;NULL=NO;DELETED=NO;BACKGROUNDFETCH=NO;";
         protected OdbcConnection _connection;
 
         public abstract bool Conectar();

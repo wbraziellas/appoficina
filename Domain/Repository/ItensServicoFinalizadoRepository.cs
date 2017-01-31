@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using lm.Oficina.Domain;
-using lm.Oficina.DTO;
+using lm.Oficina.Domain.DTO;
 using System.Data.Odbc;
 using System.Data;
 
@@ -31,9 +30,9 @@ namespace lm.Oficina.Domain.Repository
             try
             {
 
-                _strSql = "INSERT" +
-                                "INTO" +
-                          "SERVICOFINALIZADO(CODIGOSERVICOFINALIZADO, CODIGOOSFINALIZADA, DESCRICAODOSERVICO, SERVICOFINALIZADO)" +
+                _strSql = "INSERT " +
+                                "INTO " +
+                          "SERVICOFINALIZADO(CODIGOSERVICOFINALIZADO, CODIGOOSFINALIZADA, DESCRICAODOSERVICO, SERVICOFINALIZADO) " +
                           "VALUES(@CODIGOSERVICOFINALIZADO, @CODIGOOSFINALIZADA, @DESCRICAODOSERVICO, @SERVICOFINALIZADO)";
 
                 OdbcCommand _sqlCmd = new OdbcCommand(_strSql);
@@ -59,12 +58,12 @@ namespace lm.Oficina.Domain.Repository
             conexao.Conectar();
 
             _strSql = "SELECT" +
-                            "CODIGOSERVICOREALIZADO" +
-                            "CODIGOOSFINALIZADA" +
-                            "DESCRICAODOSERVICO" +
-                            "SERVICOREALIZADO" +
-                       "FROM ITENSSERVICOFINALIZADO" + 
-                       "WHERE" +
+                            "CODIGOSERVICOREALIZADO, " +
+                            "CODIGOOSFINALIZADA, " +
+                            "DESCRICAODOSERVICO, " +
+                            "SERVICOREALIZADO, " +
+                       "FROM ITENSSERVICOFINALIZADO " + 
+                       "WHERE " +
                              "CODIGOOSFINALIZADA = @CODIGOOSFINALIZADA";
 
             OdbcCommand _strCmd = new OdbcCommand(_strSql);

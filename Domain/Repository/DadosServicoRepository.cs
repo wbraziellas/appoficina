@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using lm.Oficina.DTO;
+using lm.Oficina.Domain.DTO;
 using System.Data.Odbc;
 using System.Data;
 
 namespace lm.Oficina.Domain
 {
-    public class DadosServicoRepository
+    public class DadosServicoRepository : ConexaoParadox
     {
         #region Propriedades
         private string _strSql;
@@ -21,28 +21,28 @@ namespace lm.Oficina.Domain
         public List<DadosServicoDTO> SelecionarServico()
         {
             _strSql = "SELECT" + 
-                            "NUMERO," +
-                            "CODCLI" +
-                            "CLIENTE" +
-                            "PLACA" + 
-                            "DATAENT" +
-                            "OBS1" +
-                    "FROM " +
-                            "ORDEM WHERE" +
-                    "STATUS = \"A\"";
+                            " NUMERO," +
+                            " CODCLI, " +
+                            " CLIENTE, " +
+                            " PLACA, " + 
+                            " DATAENT, " +
+                            " OBS1" +
+                    " FROM" +
+                            " ORDEM WHERE" +
+                    " STATUS = \"A\"";
                 
-            conexaoParadox.Conectar();
+            Conectar();
 
-            OdbcCommand _cmdSql = new OdbcCommand(_strSql);
+            OdbcCommand _cmdSql = new OdbcCommand(_strSql, _connection);
             OdbcDataAdapter _adpSql = new OdbcDataAdapter() { SelectCommand = _cmdSql };
             DataTable _data = new DataTable();
 
             _adpSql.Fill(_data);
 
-            conexaoParadox.Desconectar();
+            Desconectar();
 
             return ConverterEmDadosServicoDto(_data);
-        }
+        }      
 
         #region Métodos privados
         private List<DadosServicoDTO> ConverterEmDadosServicoDto(DataTable data)

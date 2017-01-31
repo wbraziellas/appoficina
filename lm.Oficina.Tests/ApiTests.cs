@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using Microsoft.TeamFoundation.TestManagement.Client;
 using lm.Oficina.Domain;
 
 namespace lm.Oficina.Tests
 {
-    [TestClass()]
+    [TestClass]
     public class ApiTests
     {
         #region Propriedades
@@ -19,7 +20,7 @@ namespace lm.Oficina.Tests
         }
         #endregion
 
-        [TestMethod()]
+        [TestMethod]
         public void Testar_Conexao_Paradox()
         {
             var conexao = conexaoParadox.Conectar();

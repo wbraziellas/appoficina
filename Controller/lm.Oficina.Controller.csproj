@@ -48,10 +48,6 @@
       <Project>{39327ac5-4737-49ce-a0e5-8660ce1ed732}</Project>
       <Name>lm.Oficina.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DTO\lm.Oficina.DTO.csproj">
-      <Project>{8775848a-f3b8-4dbd-9d24-f1b892d7e9a6}</Project>
-      <Name>lm.Oficina.DTO</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

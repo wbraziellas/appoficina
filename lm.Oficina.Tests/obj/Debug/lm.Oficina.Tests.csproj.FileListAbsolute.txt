@@ -2,11 +2,11 @@ C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\lm.Oficina.Tests.dll
 C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\lm.Oficina.Tests.pdb
 C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\Controller.dll
 C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\lm.Oficina.Domain.dll
-C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\lm.Oficina.DTO.dll
+C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\Microsoft.TeamFoundation.TestManagement.Client.dll
 C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\Microsoft.TeamFoundation.TestManagement.Common.dll
 C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\Controller.pdb
 C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\lm.Oficina.Domain.pdb
-C:\Projetos\lm.oficina\lm.Oficina.Tests\bin\Debug\lm.Oficina.DTO.pdb
 C:\Projetos\lm.oficina\lm.Oficina.Tests\obj\Debug\lm.Oficina.Tests.csprojResolveAssemblyReference.cache
 C:\Projetos\lm.oficina\lm.Oficina.Tests\obj\Debug\lm.Oficina.Tests.dll
 C:\Projetos\lm.oficina\lm.Oficina.Tests\obj\Debug\lm.Oficina.Tests.pdb

@@ -7,14 +7,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using lm.Oficina.Controller;
 
-namespace lm.oficina
+namespace lm.Oficina
 {
     public partial class FrmPrincipal : Form
     {
         #region Propriedades
 
-        //private 
+        private DadosServicoController _dadosServicoController;
+        private DadosServicoController dadosServicoController
+        {
+            get { return _dadosServicoController ?? (_dadosServicoController = new DadosServicoController()); }
+            set { }
+        }
 
         #endregion
 
@@ -26,7 +32,17 @@ namespace lm.oficina
 
         private void FrmPrincipal_Load(object sender, EventArgs e)
         {
-            //grdListaServicos.Items.Add = 
+            dadosServicoController.ObterServicosEmAberto();
+        }
+
+        private void edtLocalizaOS_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void commandBarItem34_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
         }
     }
 }

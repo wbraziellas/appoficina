@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using lm.Oficina.Domain;
-using lm.Oficina.DTO;
+using lm.Oficina.Domain.DTO;
 using System.Data.Odbc;
 using System.Data;
 
@@ -30,8 +29,8 @@ namespace lm.Oficina.Domain.Repository
 
             try
             {
-                _strSql = "INSERT INTO SERVICOFINALIZADO" +
-                                "(CODIGODAOS, NOMECLIENTE, PLACAVEICULO, DATAOS, DATAOSFINALIZADA, MECANICOOS, CODIGOSERVICOFEITO)" +
+                _strSql = "INSERT INTO SERVICOFINALIZADO " +
+                                "(CODIGODAOS, NOMECLIENTE, PLACAVEICULO, DATAOS, DATAOSFINALIZADA, MECANICOOS, CODIGOSERVICOFEITO) " +
                                 "VALUES(@CODIGODAOS, @NOMECLIENTE, @PLACAVEICULO, @DATAOS, @DATAOSFINALIZADA, @MECANICOOS, @CODIGOSERVICOFEITO)";
 
                 OdbcCommand _sqlCmd = new OdbcCommand(_strSql);
@@ -61,13 +60,13 @@ namespace lm.Oficina.Domain.Repository
         public List<ServicoFinalizadoDTO> SelecionarServicoFinalizado()
         {
             _strSql = "SELECT" +
-                            "CODIGODAOS" +
-                            "NOMECLIENTE" +
-                            "PLACAVEICULO" +
-                            "DATAOS" +
-                            "DATAOSFINALIZADA" +
-                            "MECANICOOS" +
-                            "CODIGOSERVICOFEITO" +
+                            "CODIGODAOS, " +
+                            "NOMECLIENTE, " +
+                            "PLACAVEICULO, " +
+                            "DATAOS, " +
+                            "DATAOSFINALIZADA, " +
+                            "MECANICOOS, " +
+                            "CODIGOSERVICOFEITO " +
                        "FROM SERVICOFINALIZADO";
 
             conexao.Conectar();
@@ -83,7 +82,7 @@ namespace lm.Oficina.Domain.Repository
                 return ConverterDataEmServicoFinalizado(data);
 
             }
-            catch(Exception eError)
+            catch
             {
                 return new List<ServicoFinalizadoDTO>();
             }

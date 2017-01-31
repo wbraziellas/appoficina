@@ -8,7 +8,8 @@ namespace lm.Oficina.Domain.DTO
 {
     public class DadosServicoDTO
     {
-        public Int32 CodigoOs { get; set; }
+        public int CodigoOs { get; set; }
+        public string CodigoCliente { get; set; }
         public string Nomecliente { get; set; }
         public string PlacaVeiculo { get; set; }
         public DateTime DataOs { get; set; }
